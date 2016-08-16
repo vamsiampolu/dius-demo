@@ -1,0 +1,27 @@
+{
+  "inventory":["ipd","mbp","atv","vga"],
+  "prices":{
+    "ipd":549.99,
+    "mbp":1399.99,
+    "atv":109.50,
+    "vga":30.00
+  },
+  "offers":{
+    "atv":{
+      "type":"X-FOR-Y",
+      "buy":3,
+      "payFor":2
+    },
+     "ipd":{
+      "type":"PRICE-DROP",
+      "threshold":4,
+      "offerPrice":499.99
+    },
+    "mbp":{
+      "type":"FREE-ITEM",
+      "boughtItemSku":"mbp",
+      "freeItemSku":"vga",
+      "freeItemQuantityPerUnit":1
+    }
+  }
+}
